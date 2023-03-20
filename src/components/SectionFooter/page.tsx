@@ -5,10 +5,9 @@ const Page = () => {
         <>
             <div className={styles.sectionFooterContainer}>
                 <div className={styles.sectionFooterContent}>
-                    <div>
-                        <h4>Pie de pagina</h4>
-                        <p> is simply dummy text of the printing and typesetting industry.</p>
-                        <i>icons</i>
+                    <div className='row'>
+                        <h4>Ubicacion</h4>
+                        <p> <i className="bi bi-geo-alt"></i> 14 sur 6715 local A.</p>
                     </div>
                     <div>
                         <h4>Contenido Adicional</h4>

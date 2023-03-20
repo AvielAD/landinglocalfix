@@ -15,17 +15,17 @@ const Page=() => {
                 <div className={styles.containerCards}>
                     <CardComponent 
                     titulo='Reparacion de Celulares' 
-                    descripcion='Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati perferendis voluptate fugit id, quas,' 
+                    descripcion='Reemplazo de pantalla, cambio de bateria, reparacion estetica.' 
                     imagenUrl='bi bi-bag'></CardComponent>
 
                     <CardComponent 
                     titulo='Mantenimiento a Computadoras' 
-                    descripcion='Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati perferendis voluptate fugit id, quas,' 
+                    descripcion='Mantenimiento Preventivo, Mantenimiento Correctivo, Actualizacion Hardware.' 
                     imagenUrl='bi bi-bookmark-star'></CardComponent>
                     
                     <CardComponent 
                     titulo='Asesoria Dispositivos Inteligentes' 
-                    descripcion='Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati perferendis voluptate fugit id, quas,' 
+                    descripcion='Cotizaciones sin costo, orientacion sobre tu equipo inteligente.' 
                     imagenUrl='bi bi-shield-check'></CardComponent>
 
                 </div>
