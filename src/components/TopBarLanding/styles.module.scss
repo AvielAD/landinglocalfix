@@ -1,0 +1,13 @@
+.container{
+    background: rgb(0,35,255);
+    background: linear-gradient(5deg, rgba(0,35,255,1) 85%, rgba(0,168,255,1) 100%);
+}
+
+.containerContent{
+    display: flex;
+    justify-content:space-around;
+}
+
+.containerContent div{
+    color: white !important;
+}

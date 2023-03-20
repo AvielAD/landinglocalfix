@@ -1,0 +1,68 @@
+.containerGrid{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.containerGridContent{
+    height: 100%;
+    width: 80%;
+    border: solid 1px black;
+    display: grid;
+    grid-template-areas: 
+    "navbar navbar navbar navbar"
+    "landing landing landing landing"
+    "secundario secundario secundario sectionvertical"
+    "secundario2 secundario2 secundario2 sectionvertical"
+    "footer footer footer footer"
+    ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+.areaNavBar{
+    grid-area: navbar;
+    border: dashed black 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.areaLanding{
+    grid-area: landing;
+    border: dashed black 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionSecundario{
+    grid-area: secundario;
+    border: dashed black 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionSecundario2{
+    grid-area: secundario2;
+    border: dashed black 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionVertical{
+    grid-area: sectionvertical;
+    border: dashed black 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.areaFooter{
+    grid-area: footer;
+    border: dashed black 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

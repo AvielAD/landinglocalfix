@@ -1,0 +1,18 @@
+.sectionCardContainer{
+    height: 250px;  
+    width: 350px;
+    border-radius: 15px;
+}
+.sectionCardContent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+.elementsIcon{
+    font-size: 40px;
+    color: black;
+}

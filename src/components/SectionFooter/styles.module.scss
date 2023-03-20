@@ -1,0 +1,26 @@
+.sectionFooterContainer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #1c1c1c;
+
+}
+.sectionFooterContent{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    div{
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        a{
+            width: 100%;
+            color: white !important;
+        }
+    }
+
+}
