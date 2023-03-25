@@ -1,7 +1,13 @@
+@import '../../../Utils/ResponsiveUtils/';
+
 .sectionCardContainer{
-    height: 250px;  
-    width: 350px;
+    height: 18rem;  
+    width: 18rem;
     border-radius: 15px;
+    border: solid 1px black;
+    padding: 1rem;
+    box-shadow: 10px 5px 5px grey;
+    
 }
 .sectionCardContent{
     width: 100%;

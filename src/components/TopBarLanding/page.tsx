@@ -28,11 +28,11 @@ const Page: React.FC<parametros> = ({ datos }) => {
     const toggle = () => setIsOpen(!isOpen);
 
     return (
-        <Navbar expand='md' fixed='top'  dark={true} style={{backgroundColor: 'blue'}}>
-        <NavbarBrand href="/">Logo</NavbarBrand>
+        <Navbar expand='md' fixed='top'  dark={true} >
+        <NavbarBrand href="/">STS</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="m-auto" navbar>
+          <Nav className="ms-auto" navbar>
             <NavItem>
               <NavLink href="/#inicio">
                 Inicio
@@ -40,26 +40,20 @@ const Page: React.FC<parametros> = ({ datos }) => {
             </NavItem>
             <NavItem>
               <NavLink href="/#servicios">
-                Servicios
+                Nosotros
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/">
-                Portafolio
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/">
-                Acerca de
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/">
+              <NavLink href="/#servicios">
                 Contacto
               </NavLink>
             </NavItem>
+            <NavItem>
+              <NavLink href="/#servicios">
+                Servicios
+              </NavLink>
+            </NavItem>
           </Nav>
-          <NavbarText>Simple Text</NavbarText>
         </Collapse>
       </Navbar>
     )

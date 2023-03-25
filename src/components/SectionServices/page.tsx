@@ -4,32 +4,42 @@ import { CardInterface } from '@/Interfaces/card'
 
 let servicio1: CardInterface
 
-const Page=() => {
+const Page = () => {
     return (
         <div className={styles.sectionService}>
             <div className={styles.sectionServiceContent}>
-                <div>
-                    <h2>Nuestros Servicios</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati perferendis voluptate fugit id, quas, excepturi iste vitae totam alias velit molestiae! Rem est quia officia iure impedit dolorum officiis eveniet?</p>
+                <div className='mb-5'>
+                    <h1 className='text-primary'>Servicios</h1>
                 </div>
                 <div className={styles.containerCards}>
-                    <CardComponent 
-                    titulo='Full Customizable' 
-                    descripcion='Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati perferendis voluptate fugit id, quas,' 
-                    imagenUrl='bi bi-bag'></CardComponent>
-
-                    <CardComponent 
-                    titulo='High Quality Design' 
-                    descripcion='Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati perferendis voluptate fugit id, quas,' 
-                    imagenUrl='bi bi-bookmark-star'></CardComponent>
-                    
-                    <CardComponent 
-                    titulo='Security' 
-                    descripcion='Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati perferendis voluptate fugit id, quas,' 
-                    imagenUrl='bi bi-shield-check'></CardComponent>
-
+                    <div className='row'>
+                        <div className='col-lg-3'>
+                            <CardComponent
+                                titulo='Desarrollo Web'
+                                descripcion='Desarrollamos páginas web únicas y personalizadas que representan tu negocio de la mejor manera posible.'
+                                imagenUrl='bi bi-bag'></CardComponent>
+                        </div>
+                        <div className='col-lg-3'>
+                            <CardComponent
+                                titulo='Aplicaciones Moviles'
+                                descripcion='Creamos aplicaciones móviles personalizadas para iOS y Android que potencian tu negocio.'
+                                imagenUrl='bi bi-bookmark-star'></CardComponent>
+                        </div>
+                        <div className='col-lg-3'>
+                            <CardComponent
+                                titulo='Software a Medida'
+                                descripcion='Creamos Software personalizado que se ajusta a las necesidades de tu negocio y mejora tus procesos empresariales'
+                                imagenUrl='bi bi-shield-check'></CardComponent>
+                        </div>
+                        <div className='col-lg-3'>
+                            <CardComponent
+                                titulo='Bases de Datos'
+                                descripcion='Optimizamos y diseñamos base de datos a medida para potenciar el rendimiento y eficiencia de tu negocio.'
+                                imagenUrl='bi bi-shield-check'></CardComponent>
+                        </div>
+                    </div>
                 </div>
-                
+
             </div>
         </div>
     )

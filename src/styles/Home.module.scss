@@ -1,3 +1,5 @@
+@import '../Utils/ResponsiveUtils/';
+
 .sectionTop{
     height: 100vh;
     width: 100%;
@@ -6,6 +8,15 @@
 }
 .sectionServices{
     height: 100vh;
+    @include DesktopLarge{
+        height: 100vh;
+    }
+    @include MobileSmall{
+        height: 100%;
+    }
+    @include MobileExtraSmall{
+        height: 100%;
+    }
     width: 100%;
     display: flex;
     justify-content: center;
