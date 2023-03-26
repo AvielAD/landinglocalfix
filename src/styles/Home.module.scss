@@ -11,15 +11,16 @@
     @include DesktopLarge{
         height: 100vh;
     }
+    @include Tablet{
+        height: 100%;
+    }
     @include MobileSmall{
         height: 100%;
     }
     @include MobileExtraSmall{
         height: 100%;
     }
-    @include Tablet{
-        height: 100%;
-    }
+   
     width: 100%;
     display: flex;
     justify-content: center;
@@ -33,7 +34,16 @@
     align-items:center;
     @include MobileSmall{
         height: 100%;
-
+    }
+    @include MobileExtraSmall{
+        height: 100%;
+    }
+}
+.sectionContacto{
+    height: 100vh;
+    width: 100%;
+    @include MobileSmall{
+        height: 100vh;
     }
     @include MobileExtraSmall{
         height: 100%;
@@ -45,3 +55,4 @@
     background: rgb(0,35,255);
     background: linear-gradient(220deg, rgba(0,35,255,1) 79%, rgba(0,168,255,1) 94%);
 }
+

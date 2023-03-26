@@ -44,7 +44,7 @@ const Page: React.FC<parametros> = ({ datos }) => {
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/#servicios">
+              <NavLink href="/#contacto">
                 Contacto
               </NavLink>
             </NavItem>

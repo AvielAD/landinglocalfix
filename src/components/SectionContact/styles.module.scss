@@ -1,0 +1,24 @@
+@import '../../Utils/ResponsiveUtils/';
+
+.containerContact{
+    height: 100vh;
+    width: 100%;
+    @include MobileSmall{
+        height: 100%;
+    }
+    @include MobileExtraSmall{
+        height: 100%;
+    }
+}
+.containerContent{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionContentForm{
+    height: 100%;
+    width: 100%;
+}

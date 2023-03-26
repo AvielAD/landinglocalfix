@@ -4,6 +4,7 @@ import Formulario from '../components/Formulario';
 import SectionLandingTop from '@/components/SectionLangindTop';
 import SectionServices from '@/components/SectionServices';
 import SectionNosotros from '@/components/SectionNosotros';
+import SectionContact from '@/components/SectionContact';
 import SectionFooter from '@/components/SectionFooter';
 import styles from '../styles/Home.module.scss'
 import SectionTables from '@/components/SectionTables';
@@ -31,7 +32,8 @@ export default function Home() {
       <div id={'nosotros'} className={styles.sectionNosotros}>
         <SectionNosotros></SectionNosotros>
       </div>
-      
+
+     
     
     </>
   )
