@@ -3,6 +3,7 @@ import TopBarLanding from '../components/TopBarLanding';
 import Formulario from '../components/Formulario';
 import SectionLandingTop from '@/components/SectionLangindTop';
 import SectionServices from '@/components/SectionServices';
+import SectionNosotros from '@/components/SectionNosotros';
 import SectionFooter from '@/components/SectionFooter';
 import styles from '../styles/Home.module.scss'
 import SectionTables from '@/components/SectionTables';
@@ -27,9 +28,10 @@ export default function Home() {
         <SectionServices></SectionServices>
       </div>
 
-      <div className={styles.sectionFooter}>
-        <SectionFooter></SectionFooter>
+      <div id={'nosotros'} className={styles.sectionNosotros}>
+        <SectionNosotros></SectionNosotros>
       </div>
+      
     
     </>
   )

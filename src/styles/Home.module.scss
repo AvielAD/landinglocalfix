@@ -17,10 +17,27 @@
     @include MobileExtraSmall{
         height: 100%;
     }
+    @include Tablet{
+        height: 100%;
+    }
     width: 100%;
     display: flex;
     justify-content: center;
     align-items:center;
+}
+.sectionNosotros{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    @include MobileSmall{
+        height: 100%;
+
+    }
+    @include MobileExtraSmall{
+        height: 100%;
+    }
 }
 .sectionFooter{
     height: 30vh;

@@ -13,25 +13,25 @@ const Page = () => {
                 </div>
                 <div className={styles.containerCards}>
                     <div className='row'>
-                        <div className='col-lg-3'>
+                        <div className='col-lg-3 col-md-6'>
                             <CardComponent
                                 titulo='Desarrollo Web'
                                 descripcion='Desarrollamos páginas web únicas y personalizadas que representan tu negocio de la mejor manera posible.'
                                 imagenUrl='bi bi-bag'></CardComponent>
                         </div>
-                        <div className='col-lg-3'>
+                        <div className='col-lg-3 col-md-6'>
                             <CardComponent
                                 titulo='Aplicaciones Moviles'
                                 descripcion='Creamos aplicaciones móviles personalizadas para iOS y Android que potencian tu negocio.'
                                 imagenUrl='bi bi-bookmark-star'></CardComponent>
                         </div>
-                        <div className='col-lg-3'>
+                        <div className='col-lg-3 col-md-6'>
                             <CardComponent
                                 titulo='Software a Medida'
                                 descripcion='Creamos Software personalizado que se ajusta a las necesidades de tu negocio y mejora tus procesos empresariales'
                                 imagenUrl='bi bi-shield-check'></CardComponent>
                         </div>
-                        <div className='col-lg-3'>
+                        <div className='col-lg-3 col-md-6'>
                             <CardComponent
                                 titulo='Bases de Datos'
                                 descripcion='Optimizamos y diseñamos base de datos a medida para potenciar el rendimiento y eficiencia de tu negocio.'
