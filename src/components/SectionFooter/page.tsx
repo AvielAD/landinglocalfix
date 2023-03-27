@@ -6,19 +6,8 @@ const Page = () => {
             <div className={styles.sectionFooterContainer}>
                 <div className={styles.sectionFooterContent}>
                     <div>
-                        <h4>Pie de pagina</h4>
-                        <p> is simply dummy text of the printing and typesetting industry.</p>
-                        <i>icons</i>
-                    </div>
-                    <div>
-                        <h4>Contenido Adicional</h4>
-                        <a href="">Blog</a>
-                        <a href="">Cotizaciones</a>
-                    </div>
-                    <div>
-                        <h4>Terminos y Condiciones</h4>
-                        <a href="">Politicas de Privacidad</a>
-                        <a href="">Terminos de Uso</a>
+                       <p>Todos los derechos reservados 2023</p>
+                       <p>Politicas de Privacidad</p>
                     </div>
                 </div>
             </div>

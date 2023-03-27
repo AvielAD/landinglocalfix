@@ -33,8 +33,13 @@ export default function Home() {
         <SectionNosotros></SectionNosotros>
       </div>
 
-     
-    
+      <div id={'contacto'} className={styles.sectionContacto}>
+        <SectionContact></SectionContact>
+      </div>
+      <div className={styles.sectionFooter}>
+        <SectionFooter></SectionFooter>
+      </div>  
+
     </>
   )
 }
