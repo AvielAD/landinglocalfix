@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>STS</title>
+        <title>LocalFix</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

@@ -29,7 +29,7 @@ const Page: React.FC<parametros> = ({ datos }) => {
 
     return (
         <Navbar expand='md' fixed='top'  dark={true} >
-        <NavbarBrand href="/">STS</NavbarBrand>
+        <NavbarBrand href="/">LocalFix</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ms-auto" navbar>

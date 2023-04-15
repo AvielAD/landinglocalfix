@@ -6,9 +6,8 @@ const Page=() => {
       <div className={styles.sectionLandingContainer}>
         <div className={styles.sectionLandingContent}>
           <div>
-            <h1>Soluciones Tecnologicas</h1>
-            <h5>Brindamos soluciones tecnológicas innovadoras, creativas, para pequeñas y 
-              medianas empresas a traves del desarrollo de sistemas de software</h5>
+            <h1>Soluciones Locales</h1>
+            <h5>En Localfix trabajamos para brindarte una correcta asesoria sobre tu smartphone o computadora.</h5>
 
           </div>
         </div>
