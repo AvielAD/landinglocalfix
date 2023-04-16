@@ -1,0 +1,78 @@
+@import '../../Utils/ResponsiveUtils/';
+
+.sectionLandingContainer{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    @include MobileSmall{
+        height: 100%;
+
+    }
+    @include MobileExtraSmall{
+        height: 100%;
+    }
+}
+
+.sectionLandingContent{
+    width: 90%;
+    height: 100%;
+    display: grid;
+    grid-template-areas: 
+    "areabanner areabanner areabanner areabanner"
+    "areaimagen areaimagen arealista arealista";
+
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 20% 80%;
+
+
+    @include MobileSmall{
+        height: 100vh;
+        grid-template-areas: 
+    "areabanner areabanner areabanner areabanner"
+    "areaimagen areaimagen areaimagen areaimagen"
+    "arealista arealista arealista arealista"
+    ;
+    grid-template-rows: 20% 30% 50%;
+
+    }
+    @include MobileExtraSmall{
+        height: 100vh;
+        grid-template-areas: 
+    "areabanner areabanner areabanner areabanner"
+    "areaimagen areaimagen areaimagen areaimagen"
+    "arealista arealista arealista arealista"
+    ;
+    grid-template-rows: 20% 30% 50%;
+    }
+}
+.areaBanner{
+    grid-area: areabanner;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.areaImagen{
+    grid-area: areaimagen;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.areaLista{
+    grid-area: arealista;
+    padding: 2rem;
+    font-size: 1.5rem;
+    @include MobileSmall{
+        font-size: 0.9rem;
+    }
+    @include MobileExtraSmall{
+        font-size: 0.9rem;
+    }
+    @include Tablet{
+        font-size: 0.8rem;
+    }
+    display: flex;
+    justify-content: center;
+
+}
+

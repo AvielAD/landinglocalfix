@@ -5,9 +5,11 @@ const Page=() => {
       <>
       <div className={styles.sectionLandingContainer}>
         <div className={styles.sectionLandingContent}>
+          <div>
             <h1>Soluciones Locales</h1>
-            <p>En Localfix trabajamos para brindarte una correcta asesoria sobre tu smartphone o computadora.
-            </p>
+            <h5>En Localfix trabajamos para brindarte una correcta asesoria sobre tu smartphone o computadora.</h5>
+
+          </div>
         </div>
       </div>
       </>
