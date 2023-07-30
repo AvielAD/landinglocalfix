@@ -1,3 +1,5 @@
+@import '../../Utils/ResponsiveUtils/';
+
 .sectionLandingContainer{
     height: 100%;
     width: 100%;
@@ -13,6 +15,12 @@
 .sectionLandingContent{
     height: 50%;
     width: 60%;
+    @include MobileSmall{
+        width: 90%;
+    }
+    @include MobileExtraSmall{
+        width: 90%;
+    }
     text-align: center;
     display: flex;
     justify-content: center;
