@@ -17,7 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div >
+      <div className={styles.navBar}>
         <TopBarLanding></TopBarLanding>
       </div>
 

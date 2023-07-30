@@ -1,9 +1,15 @@
 @import '../Utils/ResponsiveUtils/';
 
 a{
-    text-decoration: none;
-    color: white;
+    text-decoration: none !important;
+    color: white !important;
 }
 body{
     margin: 0;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }

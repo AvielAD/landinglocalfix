@@ -1,64 +1,60 @@
 import Link from 'next/link'
 import styles from './styles.module.scss'
-import React, { useState } from 'react';
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  NavbarText,
-} from 'reactstrap';
+import React, { useEffect, useRef, useState } from 'react';
 
+const Page = () => {
+  const [menu, setMenu] = useState(false);
+  const wrapperRef = useRef(null) as any
+  const logowrapRef= useRef(null) as any
 
-interface parametros {
-    datos: string[]
+  useEffect(()=>{
+      const handleOutSideClick=(event:any)=>{
+          if(menu && wrapperRef.current && logowrapRef.current &&
+              !wrapperRef.current.contains(event.target) && !logowrapRef.current.contains(event.target)){
+             setMenu(false)
+             console.log('Click')
+          }
+      }
+              
+      document.addEventListener('click', handleOutSideClick)
+      return ()=>{
+          document.removeEventListener('click', handleOutSideClick)
+      }
+  })
+  return (
+    <>
+      <div className={styles.containerNavBar}>
+                <div className={styles.containerContentNavBar}>
+                    <div>
+                        <Link href='#inicio'>LocalFix</Link>
+                    </div>
+
+                    <div className={styles.menuTop}>
+                        <i ref={logowrapRef} className="bi bi-list" onClick={() => setMenu(!menu)}></i>
+                    </div>
+
+                    <div ref={wrapperRef}
+                    className={`${styles.menuTopMobile} 
+                    ${menu ? styles.menuView : styles.menuHidden}`}>
+                        <ul className={styles.listMenu}>
+                            <Link href='#inicio'>Inicio</Link>
+                            <Link href='#servicios'>Servicios</Link>
+                            <Link href='#nosotros'>Nosotros</Link>
+                            <Link href='#contacto'>Contacto</Link>
+                        </ul>
+
+                    </div>
+
+                    <ul>
+                        <Link href='#inicio'>Inicio</Link>
+                        <Link href='#servicios'>Servicios</Link>
+                        <Link href='#nosotros'>Nosotros</Link>
+                        <Link href='#contacto'>Contacto</Link>
+                    </ul>
+
+                </div>
+            </div>
+    </>
+  )
 }
-const Page: React.FC<parametros> = ({ datos }) => {
-    //
-    //Logica JS TSX
-    //
-    const [isOpen, setIsOpen] = useState(false);
-    const toggle = () => setIsOpen(!isOpen);
-
-    return (
-        <Navbar expand='md' fixed='top'  dark={true} >
-        <NavbarBrand href="/">LocalFix</NavbarBrand>
-        <NavbarToggler onClick={toggle} />
-        <Collapse isOpen={isOpen} navbar>
-          <Nav className="ms-auto" navbar>
-            <NavItem>
-              <NavLink href="/#inicio">
-                Inicio
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/#nosotros">
-                Nosotros
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/#contacto">
-                Contacto
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/#servicios">
-                Servicios
-              </NavLink>
-            </NavItem>
-          </Nav>
-        </Collapse>
-      </Navbar>
-    )
-
-}
-
-
 export default Page
