@@ -23,11 +23,11 @@ export const metadata: Metadata = {
 
 const opciones = [
   {
-    ruta: 'Laptops',
-    uri: '/laptops'
+    ruta: 'Inicio',
+    uri: '/'
   },
   {
-    ruta: 'Company',
+    ruta: 'Laptops',
     uri: '/laptops'
   }, 
   {

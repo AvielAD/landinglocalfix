@@ -22,7 +22,7 @@ const promos = [
         description: "Espacio optimo para trabajo de ofimatica, programas basicos , no se recomienda almacenamiento multimedia",
         price: 700,
         listbonus: [ 
-            "Limpieza interna",
+            "Limpieza interna hardware",
             "Cambio pasta termica",
             "Instalacion sistema operativo",
             "Configuracion inicial orientada al rendimiento",
@@ -34,7 +34,7 @@ const promos = [
         description: "Espacio optimo para escuela, programas basicos, almacenamiento moderado de archivos",
         price: 900,
         listbonus: [ 
-            "Limpieza interna",
+            "Limpieza interna hardware",
             "Cambio pasta termica",
             "Instalacion sistema operativo",
             "Configuracion inicial orientada al rendimiento",
@@ -46,7 +46,7 @@ const promos = [
         description: "Espacio optimo para escuela, programas basicos, almacenamiento moderado de archivos y almacenamiento multimedia",
         price: 1200,
         listbonus: [ 
-            "Limpieza interna",
+            "Limpieza interna hardware",
             "Cambio pasta termica",
             "Instalacion sistema operativo",
             "Configuracion inicial orientada al rendimiento",
