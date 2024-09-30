@@ -1,6 +1,6 @@
 'use client'
 import Image from "next/image"
-import Logo from '@/app/logo.jpeg'
+import Logo from '@/app/assets/logo.jpeg'
 import { useState } from "react"
 
 const Index = ()=>{
@@ -11,7 +11,7 @@ const Index = ()=>{
                 <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
                     <a href="" className="flex items-center">
                     <Image src={Logo} className="h-6 mr-3 sm:h-9 w-10" alt="Image logo"></Image>
-                    <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">LocalFix</span>
+                    <span className="self-center text-3xl font-semibold whitespace-nowrap dark:text-white font-inspiration">LocalFix</span>
                     </a>
                     <div className="flex items-center lg:order-2">
                         <div className="hidden mt-2 mr-4 sm:inline-block">

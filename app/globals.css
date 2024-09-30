@@ -2,3 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'Inspiration';
+    src: url('../app//fonts/Inspiration-Regular.ttf');
+}
