@@ -19,7 +19,7 @@ const bannerpromo = {
 const promos = [
     {
         product: "SSD 120",
-        description: "Espacio óptimo para trabajo de ofimatíca, programas básicos , no se recomienda almacenamiento multimedia",
+        description: "Espacio óptimo para trabajo de ofimática, programas básicos , no se recomienda almacenamiento multimedia",
         price: 700,
         listbonus: [ 
             "Limpieza interna hardware",
