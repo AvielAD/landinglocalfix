@@ -20,14 +20,14 @@ const Index = () => {
                 </div>
             </div>
             <div className="max-w-screen-xl px-4 pb-8 mx-auto lg:pb-16">
-                <div className="flex text-gray-500 sm:gap-12 sm:grid-cols-3 lg:grid-cols-6 dark:text-gray-400">
-                    <a href="#" className="flex items-center lg:justify-center">
+                <div className="flex text-gray-500 dark:text-gray-400">
+                    <a href="#" className="">
                         <Image src={Androidsvg} alt="android svg" className="h-9"></Image>
                     </a>
-                    <a href="#" className="flex items-center lg:justify-center">
+                    <a href="#" className="">
                         <Image src={Applesvg} alt="apple svg" className="h-9"></Image>
                     </a>
-                    <a href="#" className="flex items-center lg:justify-center">
+                    <a href="#" className="">
                         <Image src={Microsoftsvg} alt="microsoft svg" className="h-9"></Image>
                     </a>
                 </div>
