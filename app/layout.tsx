@@ -29,19 +29,20 @@ const opciones = [
   {
     ruta: 'Laptops',
     uri: '/laptops'
-  }, 
-  {
-    ruta: 'Marketplace',
-    uri: '/laptops'
   },
   {
-    ruta: 'Features',
+    ruta: 'Servicios',
     uri: '/laptops'
   },
   {
     ruta: 'Team',
     uri: '/laptops'
   },
+  {
+    ruta: 'Contacto',
+    uri: '/laptops'
+  },
+
 ]
 
 export default function RootLayout({
