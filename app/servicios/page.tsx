@@ -12,8 +12,8 @@ const Index = () => {
 export default Index
 
 const bannerpromo = {
-    section: "Actualización para Laptops",
-    description: "Presentamos un conjunto de precios, sobre la actualización de laptops o PC Escritorio para mejorar la velocidad, estos paquetes de actualización son válidos para el disco duro interno (HDD/SSD) 3.5 ."
+    section: "Laptops Mantenimiento Preventivo",
+    description: "Contamos con los siguientes paquetes de mantenimiento."
 }
 
 const promos = [
