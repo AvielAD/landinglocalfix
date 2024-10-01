@@ -21,6 +21,4 @@ const infoBanner = {
   title: 'Podemos ayudarte con alguna cotización?',
   description: 'Es importante conozcas el modelo de tu celular o computadora.',
   namebutton: 'más información'
-  
-
 }

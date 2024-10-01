@@ -32,7 +32,7 @@ const opciones = [
   },
   {
     ruta: 'Servicios',
-    uri: '/laptops'
+    uri: '/servicios'
   },
   {
     ruta: 'Team',
