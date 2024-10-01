@@ -45,12 +45,10 @@ const promos = [
         description: "Ya sea para mejorar el almacenamiento al liberar espacio, mejorar rendimiento o eliminar virus de raíz",
         price: 350,
         listbonus: [ 
-            "instalación Windows 10, Windows 11, Linux",
+            "Instalación OS X ",
+            "Actualización paquetes de seguridad mas recientes",
             "Configuración optimizada para rendimiento",
-            "Se conserva la licencía aprobada para el dispositivo",
-            "Se descarga paquete mas reciente de actualizaciones de seguridad y drivers",
             "Respaldo de información de hasta 30gb",
-
         ]
     }
 ]
