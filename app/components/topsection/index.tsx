@@ -1,8 +1,8 @@
 import Image from "next/image"
 import Landing1 from '@/app/assets/landing1.jpeg'
 import Androidsvg from '@/app/assets/android.svg'
-import Applesvg from '@/app/assets/apple.svg'
-import Microsoftsvg from '@/app/assets/microsoft.svg'
+import Applesvg from '@/app/assets/ios.svg'
+import Microsoftsvg from '@/app/assets/windows.svg'
 
 
 const Index = () => {
@@ -20,10 +20,10 @@ const Index = () => {
                 </div>
             </div>
             <div className="max-w-screen-xl px-4 pb-8 mx-auto lg:pb-16">
-                <div className="flex justify-between text-gray-500 dark:text-gray-400">
-                        <Image src={Androidsvg} alt="android svg" className="h-4 sm:h-9 fill-gray-300"></Image>
-                        <Image src={Applesvg} alt="apple svg" className="h-4 sm:h-9"></Image>
-                        <Image src={Microsoftsvg} alt="microsoft svg" className="h-4 sm:h-9 fill-black"></Image>
+                <div className="flex justify-between items-center text-gray-500 dark:text-gray-400">
+                        <Image src={Androidsvg} alt="android svg" className="h-14 sm:h-20"></Image>
+                        <Image src={Applesvg} alt="apple svg" className="h-14 sm:h-20"></Image>
+                        <Image src={Microsoftsvg} alt="microsoft svg" className="h-14 sm:h-20 fill-black"></Image>
                 </div>
 
             </div>
