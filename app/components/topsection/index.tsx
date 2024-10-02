@@ -20,16 +20,10 @@ const Index = () => {
                 </div>
             </div>
             <div className="max-w-screen-xl px-4 pb-8 mx-auto lg:pb-16">
-                <div className="flex text-gray-500 dark:text-gray-400">
-                    <a href="#" className="">
-                        <Image src={Androidsvg} alt="android svg" className="h-9 dark:text-white"></Image>
-                    </a>
-                    <a href="#" className="">
-                        <Image src={Applesvg} alt="apple svg" className="h-9 dark:text-white"></Image>
-                    </a>
-                    <a href="#" className="">
-                        <Image src={Microsoftsvg} alt="microsoft svg" className="h-9 dark:text-white"></Image>
-                    </a>
+                <div className="flex justify-between text-gray-500 dark:text-gray-400">
+                        <Image src={Androidsvg} alt="android svg" className="h-4 sm:h-9 fill-gray-300"></Image>
+                        <Image src={Applesvg} alt="apple svg" className="h-4 sm:h-9"></Image>
+                        <Image src={Microsoftsvg} alt="microsoft svg" className="h-4 sm:h-9 fill-black"></Image>
                 </div>
 
             </div>
